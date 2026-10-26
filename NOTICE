@@ -1,0 +1,13 @@
+TextureDownscaler is released under the GNU General Public License, version 3
+or later, with the additional permissions in EXCEPTIONS.md. See LICENSE.
+
+include/SKSEMenuFramework.h comes from SKSE Menu Framework by QTR-Modding and
+is redistributed unmodified, apart from the three-line header naming its
+source. It was taken while that project was under the GNU Lesser General
+Public License, version 2.1, which allows it to be combined with GPL code:
+
+    https://github.com/QTR-Modding/SKSE-Menu-Framework-3
+    https://github.com/QTR-Modding/SKSE-Menu-Framework-3/blob/24c40c925650c033/LICENSE
+
+The plugin does not link against SKSE Menu Framework and runs unchanged when
+it isn't installed.

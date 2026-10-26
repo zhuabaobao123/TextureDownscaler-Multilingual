@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        "simpleini",
+        "spdlog",
+        "fmt",
+        "rapidcsv",
+        "xbyak",
+        "directxtk"
+    ]
+}

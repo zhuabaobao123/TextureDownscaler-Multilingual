@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig.xsd">
+    <moduleName>TextureDownscaler - Multilingual</moduleName>
+    <requiredInstallFiles>
+        <file source="DLL\TextureDownscaler.dll" destination="SKSE\Plugins\TextureDownscaler.dll" priority="0" />
+        <file source="DLL\TextureDownscaler.pdb" destination="SKSE\Plugins\TextureDownscaler.pdb" priority="1" />
+    </requiredInstallFiles>
+    <installSteps order="Explicit">
+        <installStep name="Language / 语言">
+            <visibleFileGroups>
+                <group name="Language" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="English" description="Install the plugin as-is; the menu stays in English.">
+                            <files>
+                                <folder source="lang\en" destination="" />
+                            </files>
+                        </plugin>
+                        <plugin name="简体中文" description="游戏内菜单显示为简体中文。需要 SKSE Menu Framework 的字形设置支持。">
+                            <files>
+                                <folder source="lang\zh-CN" destination="" />
+                            </files>
+                        </plugin>
+                        <plugin name="日本語" description="ゲーム内メニューが日本語になります。フォントは SKSE Menu Framework の字形設定で決まります。">
+                            <files>
+                                <folder source="lang\ja" destination="" />
+                            </files>
+                        </plugin>
+                        <plugin name="한국어" description="게임 내 메뉴가 한국어로 표시됩니다. 글꼴은 SKSE Menu Framework의 글리프 설정에 따라 결정됩니다.">
+                            <files>
+                                <folder source="lang\ko" destination="" />
+                            </files>
+                        </plugin>
+                        <plugin name="Русский" description="Интерфейс в игре станет русскоязычным. Шрифт задаётся настройками SKSE Menu Framework.">
+                            <files>
+                                <folder source="lang\ru" destination="" />
+                            </files>
+                        </plugin>
+                        <plugin name="Français" description="L'interface en jeu passe en français. La police dépend des réglages de glyphes de SKSE Menu Framework.">
+                            <files>
+                                <folder source="lang\fr" destination="" />
+                            </files>
+                        </plugin>
+                        <plugin name="Deutsch" description="Das In-Game-Menü wird auf Deutsch angezeigt. Die Schrift hängt von den Glyphen-Einstellungen des SKSE Menu Framework ab.">
+                            <files>
+                                <folder source="lang\de" destination="" />
+                            </files>
+                        </plugin>
+                        <plugin name="Español" description="El menú del juego pasará a mostrarse en español. La fuente depende de la configuración de glifos de SKSE Menu Framework.">
+                            <files>
+                                <folder source="lang\es" destination="" />
+                            </files>
+                        </plugin>
+                    </plugins>
+                </group>
+            </visibleFileGroups>
+        </installStep>
+    </installSteps>
+</config>
