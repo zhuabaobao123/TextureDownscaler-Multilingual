@@ -47,6 +47,8 @@ SKSE\Plugins\TextureDownscaler.json  （所选语言；删除即恢复英文）
 ## 发布物 / Package
 
 - `E:\TextureDownscaler-src-2.6\TextureDownscaler-Multilingual-2.6.0.7z`（FOMOD，4.77 MB）
+- `E:\TextureDownscaler-src-2.6\TextureDownscaler-Multilingual-2.6.0.zip`（同内容 ZIP 版，7.22 MB；Windows 资源管理器可直接打开）
+- FOMOD 语言选项使用**逐文件显式声明**（`<file source=... destination=...>`），不依赖空 destination 的 folder 复制，避免部分安装器装出空文件夹。
 - 上传前请把 `fomod\info.xml` 里的 Author 改成你自己的 N 网 ID。
 
 ## 许可 / License
