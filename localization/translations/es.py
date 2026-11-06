@@ -41,7 +41,7 @@ T = {
     "When off, textures load at full size. Only affects textures loaded from now on.": "Desactivado, las texturas se cargan a tamaño completo. Solo afecta a las texturas que se carguen desde ahora.",
     "Reduce above VRAM": "Reducir por encima de la VRAM",
     "Always": "Siempre",
-    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time.": "Las texturas se cargan a tamaño completo hasta que el juego use esta parte de su presupuesto de memoria de vídeo. «Siempre» las reduce todo el tiempo.",
+    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time. 70-80% is recommended, higher leaves little headroom.": "Las texturas se cargan a tamaño completo hasta que el juego use esta parte de su presupuesto de memoria de vídeo. «Siempre» las reduce todo el tiempo. Se recomienda 70-80 %; por encima queda muy poco margen.",
     "Trace": "Traza",
     "Debug": "Depuración",
     "Info": "Información",

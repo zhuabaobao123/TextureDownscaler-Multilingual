@@ -41,7 +41,7 @@
   "When off, textures load at full size. Only affects textures loaded from now on.",
   "Reduce above VRAM",
   "Always",
-  "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time.",
+  "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time. 70-80% is recommended, higher leaves little headroom.",
   "Trace",
   "Debug",
   "Info",

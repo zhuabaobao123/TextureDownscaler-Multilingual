@@ -1,10 +1,16 @@
 # TextureDownscaler - 多语言整合版（Multilingual Localization）
 
-> 基于 TextureDownscaler v2.6.0（Nexus 187049，作者 RoseEden30）的本地化版本。
+> 基于 TextureDownscaler v2.6.1（Nexus 187049，作者 RoseEden30）的本地化版本。
 > 游戏内菜单（MCM）支持 8 种语言，**窗口标题、标签页、按钮、提示、帮助全文都本地化**，
 > 安装 FOMOD 时单选一种。
 
 ---
+
+## 2.6.1 变更 / What changed
+
+- 跟进上游 `04edbb4`：显存阈值在加载高峰时不再超调（只改判定逻辑，界面无变化）。
+- 新增翻译句：显存阈值 tooltip 增加「建议 70-80%，再高余量过少」，8 语言均已更新。
+- 版本号 2.6.1；配置键、ini、预设均未改动。
 
 ## 语言列表 / Languages
 
@@ -26,7 +32,7 @@
 3. 安装后确保本模组已启用、排在你原 TextureDownscaler 的位置。
 
 ### 需求 / Requirements
-- 原版 TextureDownscaler 2.6.0 的安装前提（SKSE、对应游戏版本 AE/SE 1.5.97）依旧适用。
+- 原版 TextureDownscaler 2.6.1 的安装前提（SKSE、对应游戏版本 AE/SE 1.5.97）依旧适用。
 - 中文/日文/韩文字形由 **SKSE Menu Framework（SMF 共享 ImGui 上下文）** 的主字体设置决定。本包不内置字体，如果游戏里显示为方框「□」，在 SMF 的字体设置里把 `PrimaryFont` 换成一个包含 CJK 字形的字体（并确认已启用「允许非拉丁字形」之类选项），无需我这个 DLL 做任何改动。
 
 ## 本地化机制 / How the localization works
@@ -46,9 +52,8 @@ SKSE\Plugins\TextureDownscaler.json  （所选语言；删除即恢复英文）
 
 ## 发布物 / Package
 
-- `E:\TextureDownscaler-src-2.6\TextureDownscaler-Multilingual-2.6.0.7z`（FOMOD，4.77 MB）
-- `E:\TextureDownscaler-src-2.6\TextureDownscaler-Multilingual-2.6.0.zip`（同内容 ZIP 版，7.22 MB；Windows 资源管理器可直接打开）
-- FOMOD 语言选项使用**逐文件显式声明**（`<file source=... destination=...>`），不依赖空 destination 的 folder 复制，避免部分安装器装出空文件夹。
+- `E:\TextureDownscaler-src-2.6\TextureDownscaler-Multilingual-2.6.1.7z`（FOMOD，4.77 MB）
+- `E:\TextureDownscaler-src-2.6\TextureDownscaler-Multilingual-2.6.1.zip`（同内容 ZIP 版，7.37 MB）
 - 上传前请把 `fomod\info.xml` 里的 Author 改成你自己的 N 网 ID。
 
 ## 许可 / License
@@ -56,7 +61,7 @@ SKSE\Plugins\TextureDownscaler.json  （所选语言；删除即恢复英文）
 - 本包基于 RoseEden30 的 TextureDownscaler，遵循 **GPL-3.0-or-later + Modding Exception** 授权，可自由再分发（标注来源、附源代码链接即可）。
 - 源码（原版 + 本地化改造与生成工具）：
   - 原仓库：<https://github.com/RoseEden30/TextureDownscaler>
-  - 本地化支持源码与本包生成脚本：<https://github.com/zhuabaobao123/TextureDownscaler-Multilingual>
+  - 本地化支持源码与本包生成脚本：发布页面的 Source / 附件说明中提供。
 - 翻译词条为社区贡献，欢迎到发布页面提交改进（尤其俄/法/德/西/韩/日，属社区初译）。
 
 ## 致谢 / Credits

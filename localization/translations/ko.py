@@ -41,7 +41,7 @@ T = {
     "When off, textures load at full size. Only affects textures loaded from now on.": "끄면 텍스처가 원본 크기로 로드됩니다. 이후 로드되는 텍스처에만 적용됩니다.",
     "Reduce above VRAM": "이 VRAM 초과 시 축소",
     "Always": "항상",
-    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time.": "게임이 비디오 메모리 예산에서 이 비율을 사용할 때까지 텍스처는 원본 크기로 로드됩니다. '항상'은 항상 축소합니다.",
+    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time. 70-80% is recommended, higher leaves little headroom.": "게임이 비디오 메모리 예산에서 이 비율을 사용할 때까지 텍스처는 원본 크기로 로드됩니다. '항상'은 항상 축소합니다.70~80%를 권장하며, 그 이상은 여유가 거의 남지 않습니다.",
     "Trace": "추적",
     "Debug": "디버그",
     "Info": "정보",

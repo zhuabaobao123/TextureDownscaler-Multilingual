@@ -41,7 +41,7 @@ T = {
     "When off, textures load at full size. Only affects textures loaded from now on.": "Когда выключено, текстуры загружаются в полном размере. Влияет только на текстуры, загружаемые с этого момента.",
     "Reduce above VRAM": "Уменьшать при видеопамяти выше",
     "Always": "Всегда",
-    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time.": "Текстуры загружаются в полном размере, пока игра не использует эту долю своего бюджета видеопамяти. «Всегда» уменьшает их постоянно.",
+    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time. 70-80% is recommended, higher leaves little headroom.": "Текстуры загружаются в полном размере, пока игра не использует эту долю своего бюджета видеопамяти. «Всегда» уменьшает их постоянно. Рекомендуется 70–80%, выше запаса почти не остаётся.",
     "Trace": "Трассировка",
     "Debug": "Отладка",
     "Info": "Информация",

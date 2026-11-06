@@ -41,7 +41,7 @@ T = {
     "When off, textures load at full size. Only affects textures loaded from now on.": "关闭时纹理以完整尺寸加载。仅影响此后加载的纹理。",
     "Reduce above VRAM": "显存超过此值时降频",
     "Always": "始终",
-    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time.": "在游戏显存占用达到该比例之前，纹理以完整尺寸加载。“始终”表示一直降频。",
+    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time. 70-80% is recommended, higher leaves little headroom.": "在游戏显存占用达到该比例之前，纹理以完整尺寸加载。“始终”表示一直降频。建议 70-80%，再高就几乎没有余量了。",
     "Trace": "追踪",
     "Debug": "调试",
     "Info": "信息",

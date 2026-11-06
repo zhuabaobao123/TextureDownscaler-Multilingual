@@ -41,7 +41,7 @@ T = {
     "When off, textures load at full size. Only affects textures loaded from now on.": "オフのときはテクスチャをフルサイズで読み込みます。以降に読み込まれるテクスチャにのみ影響します。",
     "Reduce above VRAM": "この VRAM 使用率を超えたら縮小",
     "Always": "常に",
-    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time.": "ゲームのビデオメモリ使用量がこの割合に達するまで、テクスチャはフルサイズで読み込まれます。「常に」では常時縮小します。",
+    "Textures load at full size until the game uses this share of its video memory budget. Always reduces them all the time. 70-80% is recommended, higher leaves little headroom.": "ゲームのビデオメモリ使用量がこの割合に達するまで、テクスチャはフルサイズで読み込まれます。「常に」では常時縮小します。70〜80% を推奨します。それ以上は余裕がほとんど残りません。",
     "Trace": "トレース",
     "Debug": "デバッグ",
     "Info": "情報",

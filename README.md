@@ -3,7 +3,7 @@
 SKSE plugin that lowers Skyrim's video memory usage by loading textures at a smaller size.
 
 > This is the **localization branch** of [TextureDownscaler](https://github.com/RoseEden30/TextureDownscaler)
-> (Nexus [187049](https://www.nexusmods.com/skyrimspecialedition/mods/187049), v2.6.0).
+> (Nexus [187049](https://www.nexusmods.com/skyrimspecialedition/mods/187049), v2.6.1).
 > The plugin's in-game menu (SMF section) is translated into 8 languages. All UI strings stay in
 > English inside the DLL and are externalized to a flat JSON dictionary, so removing
 > `SKSE/Plugins/TextureDownscaler.json` reverts the menu to English at any time — no rebuild needed.
